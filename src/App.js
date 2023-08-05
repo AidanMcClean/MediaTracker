@@ -19,9 +19,6 @@ const App = () => {
   const handleStateChange = (state) => {
     setSelectedState(state);
   };
-  //filted items based on state
-  const filteredMediaItems =
-    selectedState === 'all' ? mediaItems : mediaItems.filter((item) => item.status === selectedState);
 
   useEffect(() => {
     const storedMediaItems = JSON.parse(localStorage.getItem('mediaItems'));
