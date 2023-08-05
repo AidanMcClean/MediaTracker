@@ -1,0 +1,1 @@
+Aidan McClean Media Tracker project in order to strengthen my skills with nodeJS and utilizing frontend and backend.

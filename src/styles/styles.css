@@ -1,0 +1,26 @@
+/* styles.css */
+ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  li {
+    display: flex;
+    align-items: center;
+  }
+  
+  li h3 {
+    margin-right: 20px;
+  }
+  
+  .status-container {
+    flex: 1; 
+    display: flex;
+    justify-content: center; 
+  }
+  
+  .remove-btn {
+    margin-left: auto; 
+    margin-right: 10px; 
+  }
+  
